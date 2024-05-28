@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --coreia1: "Lato", sans-serif;
+    --coreia2:   "Oswald", sans-serif;
+    --coreia3:   Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: hsla(231, 73%, 7%, 0.99);
+    min-height: 98vh;
+    min-width: 320px;
+}
+
+header{
+    text-transform: uppercase;
+    font-family: var(--coreia2);
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color:white;
+    text-align: center;
+}
+
+nav{
+    background-image:linear-gradient(to right, rgba(2, 0, 128, 0.041), rgba(126, 11, 184, 0.254),rgba(139, 12, 202, 0.978));
+    margin: 90px 15px ;
+    padding: 25px;
+    text-transform: uppercase;
+    border-top-right-radius: 29px;
+    border-bottom-right-radius: 29px;
+    color: white;
+    text-align: center;
+}
+
+.normal a {
+    color: white;
+    font-size: 30px;
+    font-family: var(--coreia2);
+}
+
+article h2{
+    text-transform: uppercase;
+}
+
+article h2, h3{
+    line-height: 1.4em;
+    font-family: var(--coreia1);
+    color: white;
+    text-align: center;
+}
+
+section {
+    line-height: 1.5em;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: var(--coreia3);
+}
+
+figure {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    border-radius: 4%;
+    width: 350px;
+    height: 350px;
+}
+
+footer {
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-family: var(--coreia3);
+}
+
+footer a {
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
